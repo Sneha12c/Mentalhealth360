@@ -1,0 +1,80 @@
+/* emoji.css */
+
+/* body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+   */
+  .mainBox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    border: 4px solid black;
+    padding: 20px;
+    background-color: rgb(232, 150, 150);
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type="range"] {
+    width: 200px;
+    margin: 10px;
+  }
+  
+  .high {
+    color: green;
+  }
+  
+  .less {
+    color: grey;
+  }
+  
+  /* Spread emojis randomly across the screen */
+  .emojiContainer {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    
+  }
+  
+  .emojiContainer h1 {
+    font-size: 48px;
+    position: absolute;
+  }
+  
+  /* Adjust the size and position of each emoji */
+  .emoji1 { top: 0%; left:0%; }
+  .emoji2 { top: 20%; left: 20%; }
+  .emoji3 { top: 30%; left: 30%; }
+  .emoji4 { top: 40%; left: 40%; }
+  .emoji5 { top: 50%; left: 50%; }
+  .emoji6 { top: 60%; left: 60%; }
+  .emoji7 { top: 70%; left: 70%; }
+  .emoji8 { top: 80%; left: 80%; }
+  

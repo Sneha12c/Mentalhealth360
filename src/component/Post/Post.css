@@ -1,0 +1,57 @@
+
+.post {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.post img {
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.postInfo {
+  width: 100%;
+  text-align: center;
+}
+
+.postInfo .Tittle {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.postInfo hr {
+  margin: 10px 0;
+}
+
+.postInfo .Cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.postInfo .Cards a {
+  margin-right: 10px;
+  font-size: medium;
+}
+
+.postInfo .Cards time {
+  font-size: 14px;
+  color: rgb(14, 60, 109);
+}
+
+.post p {
+  margin: 10px 0;
+}
+.contentpart {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  max-width: fit-content;
+  max-height: 400px;
+  overflow: hidden;
+}
+
